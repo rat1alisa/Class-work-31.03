@@ -9,11 +9,6 @@ public:
     char* str;
     int strsize;
     STR() {};
-    STR(char* s_str, int s_strsize)
-    { 
-        str = s_str; 
-        strsize = s_strsize;
-    }
     // | - конструктор
     STR(const STR &s)
     {
