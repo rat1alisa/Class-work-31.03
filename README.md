@@ -57,10 +57,8 @@ public:
 
 int main()
 {
-    //STR A("I love me");
-    //A.Output();
     STR A("I love me");
+    A.Output();
     STR B = A;
     B.Output();
-    
 }
